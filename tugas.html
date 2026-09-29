@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodcourt Nusantara</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #ff6b35;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Konten */
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        main h2 {
+            text-align: center;
+            color: #ff6b35;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #ff6b35;
+            color: white;
+            padding: 15px;
+        }
+
+        td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #fff0e5;
+        }
+
+        td img {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .harga {
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        /* Link */
+        .link-foodcourt {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .link-foodcourt a {
+            display: inline-block;
+            background-color: #ff6b35;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .link-foodcourt a:hover {
+            background-color: #d94f20;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Foodcourt Nusantara</h1>
+        <p>Tempat Makan Favorit dengan Berbagai Pilihan Menu</p>
+
+        <img
+            src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80"
+            alt="Foodcourt">
+    </header>
+
+    <!-- Konten -->
+    <main>
+        <h2>Daftar Menu Makanan</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Gambar</th>
+                    <th>Nama Makanan</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img
+                            src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=400&q=80"
+                            alt="Nasi Goreng">
+                    </td>
+                    <td>Nasi Goreng Spesial</td>
+                    <td class="harga">Rp20.000</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <img
+                            src="https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&w=400&q=80"
+                            alt="Mie Goreng">
+                    </td>
+                    <td>Mie Goreng</td>
+                    <td class="harga">Rp18.000</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80"
+                            alt="Ayam">
+                    </td>
+                    <td>Ayam Bakar</td>
+                    <td class="harga">Rp25.000</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <img
+                            src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=400&q=80"
+                            alt="Pasta">
+                    </td>
+                    <td>Pasta Spesial</td>
+                    <td class="harga">Rp28.000</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <img
+                            src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=400&q=80"
+                            alt="Donat">
+                    </td>
+                    <td>Donat Cokelat</td>
+                    <td class="harga">Rp10.000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Link Foodcourt -->
+        <div class="link-foodcourt">
+            <p>Ingin melihat informasi Foodcourt lebih lengkap?</p>
+
+            <a href="https://www.google.com" target="_blank">
+                Akses Foodcourt
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Foodcourt Nusantara - Ayouma Holga</p>
+    </footer>
+
+</body>
+</html>
